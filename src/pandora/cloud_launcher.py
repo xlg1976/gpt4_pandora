@@ -38,7 +38,7 @@ def main():
         help='Specific server bind. Format: ip:port, default: 127.0.0.1:8018',
         required=False,
         type=str,
-        default='127.0.0.1:8018',
+        default='0.0.0.0:8076',
     )
     parser.add_argument(
         '--threads',
